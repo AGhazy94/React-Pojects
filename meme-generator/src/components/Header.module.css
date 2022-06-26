@@ -1,0 +1,30 @@
+.headerContainer {
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+	/* gap: 35.1rem; */
+	width: 100%;
+	padding: 2rem;
+	background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+	color: #fff;
+}
+
+.headerContainer__logo {
+	display: flex;
+	align-items: center;
+	gap: 0.7rem;
+}
+
+.headerContainer__logo img {
+	width: 3.1rem;
+}
+
+.headerContainer__logo h2 {
+	font-size: 2.07rem;
+}
+
+.headerContainer h4 {
+	font-size: 1.2rem;
+	font-weight: 500;
+  padding-right: 1.7rem;
+}

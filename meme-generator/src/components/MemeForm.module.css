@@ -1,0 +1,76 @@
+.memeForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 3.5rem;
+	padding: 3.5rem;
+}
+
+.memeForm__Form {
+	display: grid;
+	gap: 1.7rem;
+	grid-template-columns: repeat(2, minmax(23rem, 1fr));
+}
+
+.memeForm__Form input {
+	border-radius: 5px;
+	padding: 1.1rem;
+	border: 1px solid #d5d4d8;
+	font-family: 'Karla', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.memeForm__Form input::placeholder {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.memeForm__Form button {
+	grid-column: 1 / -1;
+	border-radius: 5px;
+	padding: 1.1rem;
+	font-family: 'Karla', sans-serif;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+	transition: all 0.2s;
+}
+
+.memeForm__Form button:hover {
+	opacity: 0.8;
+}
+
+.memeForm__Form button:active {
+	transform: scale(0.98);
+}
+
+.memeForm__img {
+	position: relative;
+}
+
+.memeForm__img h2 {
+	font-size: 3.2rem;
+	color: #ffffff;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+		-2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+		2px 2px 5px #000;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+  transform: translateX(-50%);
+}
+
+.memeForm__img h2:nth-child(1) {
+	margin-top: 5px;
+}
+
+.memeForm__img h2:nth-child(3) {
+	margin-top: -5rem;
+}
+
+.memeForm__img img {
+	max-width: 100%;
+}

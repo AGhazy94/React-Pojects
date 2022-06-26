@@ -1,0 +1,27 @@
+.container {
+	width: 100%;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.container img {
+	max-width: 39.5rem;
+	align-self: center;
+	padding-bottom: 3.2rem;
+}
+
+.container__lead {
+	max-width: 35rem;
+}
+
+.container__lead h2 {
+	font-size: 3.5rem;
+	line-height: 110%;
+	padding-bottom: 1.6rem;
+}
+
+.container__lead p {
+	font-size: 1.6rem;
+	line-height: 110%;
+}

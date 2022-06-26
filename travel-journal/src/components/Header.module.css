@@ -1,0 +1,21 @@
+.container {
+	width: 100%;
+	background-color: #f55a5a;
+	padding: 1.6rem 0;
+	margin-bottom: 1.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.7rem;
+}
+
+.container img {
+	width: 2.4rem;
+}
+
+.container h5 {
+	font-weight: 500;
+	font-size: 1.44rem;
+	letter-spacing: -0.075em;
+	color: #fff;
+}

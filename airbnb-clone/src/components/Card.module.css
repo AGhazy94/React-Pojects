@@ -1,0 +1,58 @@
+.card {
+	position: relative;
+	width: 100%;
+}
+
+.hidden {
+	display: none;
+}
+
+.card__photo {
+	width: 17rem;
+	height: 23.5rem;
+	border-radius: 9px;
+}
+
+.card__photo--status {
+	padding: 4px 6px;
+	background-color: #fff;
+	font-weight: 700;
+	border-radius: 2px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 6px;
+	top: 7px;
+}
+
+.card__info {
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+	line-height: 110%;
+	font-weight: 300;
+	padding: 3px 0;
+}
+.card__info--rate,
+.card__info--count {
+	margin: 0 1px;
+}
+.card__info--location {
+	margin-left: 1px;
+}
+
+.card__info--star {
+	width: 1.4rem;
+}
+
+.card__info--count,
+.card__info--location {
+	color: #918e9b;
+}
+
+.card__desc {
+	padding: 0 0 3px 0;
+}
+
+.card__pricing {
+	font-weight: 600;
+}
